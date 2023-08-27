@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(21, 98, 241);
+    font-family: 'Nunito', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88Px;
+    padding: 0 20px;
+}
+
+nav ul {
+    height: 7vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    /* color: black; */
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 25px;
+    border-radius: 5px;
+    margin: 0 15px 0 60px;
+    padding: 0 12px;
+}
+
+.search button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.slider{
+    margin: 12px auto;
+    width: 80vw;
+    overflow: hidden;
+}
+
+.card{
+   max-width: 90vw;
+   margin: auto;
+   overflow: hidden;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 34px auto;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 7vh - 10vh);
+}
+
+footer {
+    height: 10vh;
+    background-color: rgb(21, 98, 241);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
